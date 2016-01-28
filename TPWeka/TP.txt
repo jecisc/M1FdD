@@ -1,0 +1,20 @@
+Question 1:
+
+Iris
+
+150 instances
+5 attributs
+Tous numeriques
+
+Spiral
+
+312 instances
+3 attributs
+2 attributs numeriques et un nominal
+
+Vote
+
+435 instances
+17 attributs
+Tous nominaux
+
