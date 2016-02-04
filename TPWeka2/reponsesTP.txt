@@ -1,0 +1,19 @@
+PARTIE 1 ------------------------------------------------------------------
+
+4) 
+On a à disposition des métriques tels que le support, le nombre de cycles effectués et la confiance minimum.
+On a le nombre d'itemSets pour chaque taille d'itemSets.
+On a également les 10 meilleures règles trouvés par l'algorithme.
+
+PARTIE 2 ------------------------------------------------------------------
+
+1)
+Lift et Leverage donnent des résultats fortement semblables.
+
+
+3)
+
+PARTIE 3 ------------------------------------------------------------------
+PARTIE 4 ------------------------------------------------------------------
+PARTIE 5 ------------------------------------------------------------------
+
