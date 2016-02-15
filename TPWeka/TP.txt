@@ -18,3 +18,23 @@ Vote
 17 attributs
 Tous nominaux
 
+----------------------------------------------------------
+
+Comparaison des résultats
+
+Pour le fichier IRIS:
+	L'algorithme FarthestFirst avec 3 Clusters et une Seed de 100 donne le meilleur résultat (taux d'erreur de 8%). Il est donc à privilégier.
+	L'algorithme des Kmeans donne aussi un bon résultat, taux d'erreur de 11.3% pour 3 Clusters et une Seed de 10.
+
+Pour le fichier SPIRAL:
+	L'algorithme Hierarchical Cluster donne des résultats parfaits pour un linkType Single et un nombre très faible de Clusters.
+	Kmeans et FarthestFirst donnent des taux d'erreurs entre 60 et 80%. Ces derniers sont à éviter.
+
+Pour le fichier VOTE:
+	L'algorithme Kmeans donne un taux d'erreur de 14% pour 2 clusters et une Seed de 10. On retrouve le même résultat pour l'algorithme Hierarchical Cluster pour un linkType Complete et très peu de Clusters.
+	L'algorithme FarthestFirst donne quant à lui quelques résultats dont le taux d'erreur est <20%.
+
+Conclusion: 
+	Le choix des algorithmes et de leurs paramètres est très important pour le clustering. Pour un même algorithme, on peut avoir des résultats passant de 8% d'erreur à 76.6% (voir tableau des résultats, Iris, FarthestFirst).
+	
+ 
