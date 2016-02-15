@@ -1,0 +1,39 @@
+!! TP Clusterisation
+
+!!! Travail sur Square1
+
+1) Nous avons choisit d' utiliser un calcul de distance classique:
+
+(((x1 - x2) / (xMax - xMin))^2 + ((y1 - y2) / (yMax - yMin))^2) sqrt
+
+Ceci est choisi car les points ont deux valeurs non bornées.
+
+2) ((xs sum / xs size) , (ys sum / ys size))
+
+3) Vous pouvez trouver l'algorithme dans un playground dans l'image Pharo fournie dans le rendu.
+
+4) Si nous lançons l'algorithme sur la base de données square1.data, avec 4 clusters et un graine de 5 nous optenons les centres:
+
+ (0.1492, 10.0028) (9.903400000000001, 9.9224) (9.9253, 0.1144) (0.057800000000000004, -0.117))
+
+!!! Travail sur Iris
+
+1) La distance correspond à la racine carrée de la somme, pour chaque valeurs, de la valeur du premier élément moins la valeur du second élément divisé par la valeur maximale moins la valeur minimale. Ceci est possible car toutes les valeurs sont dans une fourchette.
+
+2) La moyenne correspond à la moyenne des valeurs de tous les points.
+
+3) L'algorithme est identique à celui de la partie précédente.
+
+4) Avec 3 clusters et une graine de 5 nous obtenons les points:
+
+ (5.006, 3.418, 1.464, 0.24400000000000002) (5.7833000000000006, 2.6646, 4.2979, 1.35) (6.7038, 3.0635000000000003, 5.4673, 1.9769)
+
+!!! Travail sur Titanic
+
+1) Nous ne prenons pas en compte Iden dans la distance.
+
+Puisque nous avons des données mixte la moyenne sera:
+
+ ( (si(class1 = class2) 1 sinon 0) + (si(age = age) 1 sinon 0) + (si(sex1 = sex2) 1 sinon 0) + (si(survived1 = survived2) 1 sinon 0)) sqrt
+
+2) 
