@@ -12,8 +12,15 @@ Lift et Leverage donnent des résultats fortement semblables.
 
 
 3)
+Leverage: Mesure la différence entre la probabilité de (L,R) et la probabilité de (L).(R)
+Pr(L,R) - Pr(L).Pr(R) 
+
+Conviction: Mesure l'effet lorsque R est faux.
+Pr(L).Pr(not R) / Pr(L,R). 
 
 PARTIE 3 ------------------------------------------------------------------
+a) 2)
+Non.
 PARTIE 4 ------------------------------------------------------------------
-PARTIE 5 ------------------------------------------------------------------
+
 
