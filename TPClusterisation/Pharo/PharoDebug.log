@@ -1,0 +1,5208 @@
+THERE_BE_DRAGONS_HERE
+MessageNotUnderstood: PolymorphSystemSettings class>>restoreSynectiqueBackground:
+1 March 2016 11:01:27.39256 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+PolymorphSystemSettings class(Object)>>doesNotUnderstand: #restoreSynectiqueBackground:
+	Receiver: PolymorphSystemSettings
+	Arguments and temporary variables: 
+		aMessage: 	restoreSynectiqueBackground: PolymorphSystemSettings
+		exception: 	MessageNotUnderstood: PolymorphSystemSettings class>>restoreSynectiq...etc...
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary()
+		format: 	2
+		layout: 	a FixedLayout
+		instanceVariables: 	#()
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#PolymorphSystemSettings
+		classPool: 	a Dictionary(#DesktopColor->(Color r: 0.295 g: 0.295 b: 0.295 alpha:...etc...
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Settings-Polymorph'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	a ReadStream
+		itsSelection: 	nil
+		itsSelectionString: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ (Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiq...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+		useFaultyForParsing: 	false
+
+
+OpalCompiler(AbstractCompiler)>>evaluate:
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		textOrString: 	'(Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynect...etc...
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ (Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiq...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+		useFaultyForParsing: 	false
+
+
+[ self class compiler evaluate: self code ] in StartupAction>>execute
+	Receiver: a StartupAction(restoreSynectiqueBackground)
+	Arguments and temporary variables: 
+		block: 	[ self class compiler evaluate: self code ]
+		correctlyExecuted: 	true
+	Receiver's instance variables: 
+		code: 	'(Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiqueBack...etc...
+		hasBeenExecuted: 	false
+		runOnce: 	true
+		nameOfItem: 	nil
+		name: 	#restoreSynectiqueBackground
+
+
+BlockClosure>>on:do:
+	Receiver: [ self class compiler evaluate: self code ]
+	Arguments and temporary variables: 
+		exception: 	an ExceptionSet
+		handlerAction: 	[ :ex | 
+StartupPreferencesLoader default errors
+	add:
+		{ex.
+		...etc...
+	Receiver's instance variables: 
+		outerContext: 	StartupAction>>execute
+		startpc: 	114
+		numArgs: 	0
+
+
+StartupAction>>execute
+	Receiver: a StartupAction(restoreSynectiqueBackground)
+	Arguments and temporary variables: 
+		block: 	[ self class compiler evaluate: self code ]
+		correctlyExecuted: 	true
+	Receiver's instance variables: 
+		code: 	'(Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiqueBack...etc...
+		hasBeenExecuted: 	false
+		runOnce: 	true
+		nameOfItem: 	nil
+		name: 	#restoreSynectiqueBackground
+
+
+[ :item :index | 
+bar current: index.
+(self add: item) execute ] in [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an Array(a StartupAction(Syntax) a StartupAction(Variable) a Start...etc...
+		bar: 	a Job
+		item: 	a StartupAction(restoreSynectiqueBackground)
+		index: 	9
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+Array(SequenceableCollection)>>withIndexDo:
+	Receiver: an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+	Arguments and temporary variables: 
+		elementAndIndexBlock: 	[ :item :index | 
+bar current: index.
+(self add: item) ex...etc...
+		index: 	9
+	Receiver's instance variables: 
+an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+
+Array(SequenceableCollection)>>doWithIndex:
+	Receiver: an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+	Arguments and temporary variables: 
+		elementAndIndexBlock: 	[ :item :index | 
+bar current: index.
+(self add: item) ex...etc...
+	Receiver's instance variables: 
+an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+
+[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an Array(a StartupAction(Syntax) a StartupAction(Variable) a Start...etc...
+		bar: 	a Job
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+BlockClosure>>cull:
+	Receiver: [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: i...etc...
+	Arguments and temporary variables: 
+		anArg: 	a Job
+	Receiver's instance variables: 
+		outerContext: 	StartupPreferencesLoader>>executeAtomicItems:
+		startpc: 	46
+		numArgs: 	1
+
+
+[ result := block cull: self ] in [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		block: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: ind...etc...
+		currentValue: 	9
+		min: 	0
+		max: 	30
+		title: 	'Load Startup Preferences'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ result := block cull: self ]
+	Arguments and temporary variables: 
+		exception: 	JobNotification
+		handlerAction: 	[ :notification | notification handle: self ]
+	Receiver's instance variables: 
+		outerContext: 	[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: Jo...etc...
+		startpc: 	57
+		numArgs: 	0
+
+
+[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		block: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: ind...etc...
+		currentValue: 	9
+		min: 	0
+		max: 	30
+		title: 	'Load Startup Preferences'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+BlockClosure>>ensure:
+	Receiver: [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :not...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ self cleanupAfterRunning ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	Job>>run
+		startpc: 	49
+		numArgs: 	0
+
+
+Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		block: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: ind...etc...
+		currentValue: 	9
+		min: 	0
+		max: 	30
+		title: 	'Load Startup Preferences'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+MorphicUIManager(UIManager)>>displayProgress:from:to:during:
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+		titleString: 	'Load Startup Preferences'
+		minVal: 	0
+		maxVal: 	30
+		workBlock: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current:...etc...
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	Transcript
+
+
+ByteString(String)>>displayProgressFrom:to:during:
+	Receiver: 'Load Startup Preferences'
+	Arguments and temporary variables: 
+		minVal: 	0
+		maxVal: 	30
+		workBlock: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current:...etc...
+	Receiver's instance variables: 
+'Load Startup Preferences'
+
+StartupPreferencesLoader>>executeAtomicItems:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an Array(a StartupAction(Syntax) a StartupAction(Variable) a Start...etc...
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	a ReadStream
+		itsSelection: 	nil
+		itsSelectionString: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ StartupLoader default
+		executeAtomicItems:
+			{(StartupAction
+			...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+		useFaultyForParsing: 	false
+
+
+DoItDeclaration>>importFor:
+	Receiver: a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+	StartupAction name: 'Synta...etc...
+	Arguments and temporary variables: 
+		requestor: 	a FileCompilerRequestor
+	Receiver's instance variables: 
+		contents: 	'StartupLoader default executeAtomicItems: {
+
+	StartupAction name: ''...etc...
+
+
+[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration contents ].
+value := declaration importFor: requestor ] in CodeImporter>>evaluateDeclarations
+	Receiver: a CodeImporter
+	Arguments and temporary variables: 
+		value: 	nil
+		declaration: 	a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+	St...etc...
+	Receiver's instance variables: 
+		readStream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/ex...etc...
+		codeDeclarations: 	an OrderedCollection(a DoItDeclaration(StartupLoader default ...etc...
+		parserClass: 	ChunkFileFormatParser
+		requestor: 	a FileCompilerRequestor
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+	Start...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration...etc...
+		index: 	1
+	Receiver's instance variables: 
+		array: 	an Array(a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+...etc...
+		firstIndex: 	1
+		lastIndex: 	1
+
+
+CodeImporter>>evaluateDeclarations
+	Receiver: a CodeImporter
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		readStream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/ex...etc...
+		codeDeclarations: 	an OrderedCollection(a DoItDeclaration(StartupLoader default ...etc...
+		parserClass: 	ChunkFileFormatParser
+		requestor: 	a FileCompilerRequestor
+
+
+CodeImporter class>>evaluateFileStream:
+	Receiver: CodeImporter
+	Arguments and temporary variables: 
+		aFileStream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/e...etc...
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#codeDeclarations->CodeImporter>>#codeDeclaratio...etc...
+		format: 	138
+		layout: 	a FixedLayout
+		instanceVariables: 	#(#readStream #codeDeclarations #parserClass #requestor)
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#CodeImporter
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#CodeImport
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+[ :stream | CodeImporter evaluateFileStream: stream ] in FileReference(AbstractFileReference)>>fileIn
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+		stream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/export...etc...
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+[ aBlock value: stream ] in FileReference(AbstractFileReference)>>readStreamDo:
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | CodeImporter evaluateFileStream: stream ]
+		stream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/export...etc...
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+BlockClosure>>ensure:
+	Receiver: [ aBlock value: stream ]
+	Arguments and temporary variables: 
+		aBlock: 	[ stream close ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	FileReference(AbstractFileReference)>>readStreamDo:
+		startpc: 	34
+		numArgs: 	0
+
+
+FileReference(AbstractFileReference)>>readStreamDo:
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | CodeImporter evaluateFileStream: stream ]
+		stream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/export...etc...
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+FileReference(AbstractFileReference)>>fileIn
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+[ :file | file fileIn ] in StartupPreferencesLoader>>load:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an OrderedCollection(File @ /Users/Cyril/Library/Preferences/pharo...etc...
+		file: 	File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings2....etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :file | file fileIn ]
+		index: 	2
+	Receiver's instance variables: 
+		array: 	an Array(File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_sett...etc...
+		firstIndex: 	1
+		lastIndex: 	5
+
+
+StartupPreferencesLoader>>load:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an OrderedCollection(File @ /Users/Cyril/Library/Preferences/pharo...etc...
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+StartupPreferencesLoader>>loadFromDefaultLocations
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+PharoCommandLineHandler>>runPreferences
+	Receiver: a PharoCommandLineHandler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a Session
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+PharoCommandLineHandler>>activate
+	Receiver: a PharoCommandLineHandler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a Session
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+PharoCommandLineHandler class(CommandLineHandler class)>>activateWith:
+	Receiver: PharoCommandLineHandler
+	Arguments and temporary variables: 
+		aCommandLine: 	a CommandLineArguments
+	Receiver's instance variables: 
+		superclass: 	BasicCommandLineHandler
+		methodDict: 	a MethodDictionary(#activate->PharoCommandLineHandler>>#activate #c...etc...
+		format: 	138
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#PharoCommandLineHandler
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'System-CommandLineHandler'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+
+--- The full stack ---
+PolymorphSystemSettings class(Object)>>doesNotUnderstand: #restoreSynectiqueBackground:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+OpalCompiler(AbstractCompiler)>>evaluate:
+[ self class compiler evaluate: self code ] in StartupAction>>execute
+BlockClosure>>on:do:
+StartupAction>>execute
+[ :item :index | 
+bar current: index.
+(self add: item) execute ] in [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+Array(SequenceableCollection)>>withIndexDo:
+Array(SequenceableCollection)>>doWithIndex:
+[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+BlockClosure>>cull:
+[ result := block cull: self ] in [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+BlockClosure>>on:do:
+[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+BlockClosure>>ensure:
+Job>>run
+MorphicUIManager(UIManager)>>displayProgress:from:to:during:
+ByteString(String)>>displayProgressFrom:to:during:
+StartupPreferencesLoader>>executeAtomicItems:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+DoItDeclaration>>importFor:
+[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration contents ].
+value := declaration importFor: requestor ] in CodeImporter>>evaluateDeclarations
+OrderedCollection>>do:
+CodeImporter>>evaluateDeclarations
+CodeImporter class>>evaluateFileStream:
+[ :stream | CodeImporter evaluateFileStream: stream ] in FileReference(AbstractFileReference)>>fileIn
+[ aBlock value: stream ] in FileReference(AbstractFileReference)>>readStreamDo:
+BlockClosure>>ensure:
+FileReference(AbstractFileReference)>>readStreamDo:
+FileReference(AbstractFileReference)>>fileIn
+[ :file | file fileIn ] in StartupPreferencesLoader>>load:
+OrderedCollection>>do:
+StartupPreferencesLoader>>load:
+StartupPreferencesLoader>>loadFromDefaultLocations
+PharoCommandLineHandler>>runPreferences
+PharoCommandLineHandler>>activate
+PharoCommandLineHandler class(CommandLineHandler class)>>activateWith:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+[ super activateWith: aCommandLine ] in PharoCommandLineHandler class>>activateWith:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+MessageNotUnderstood: PolymorphSystemSettings class>>restoreSynectiqueBackground:
+1 March 2016 11:06:13.271785 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+PolymorphSystemSettings class(Object)>>doesNotUnderstand: #restoreSynectiqueBackground:
+	Receiver: PolymorphSystemSettings
+	Arguments and temporary variables: 
+		aMessage: 	restoreSynectiqueBackground: PolymorphSystemSettings
+		exception: 	MessageNotUnderstood: PolymorphSystemSettings class>>restoreSynectiq...etc...
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary()
+		format: 	2
+		layout: 	a FixedLayout
+		instanceVariables: 	#()
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#PolymorphSystemSettings
+		classPool: 	a Dictionary(#DesktopColor->(Color r: 0.295 g: 0.295 b: 0.295 alpha:...etc...
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Settings-Polymorph'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	a ReadStream
+		itsSelection: 	nil
+		itsSelectionString: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ (Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiq...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+		useFaultyForParsing: 	false
+
+
+OpalCompiler(AbstractCompiler)>>evaluate:
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		textOrString: 	'(Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynect...etc...
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ (Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiq...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+		useFaultyForParsing: 	false
+
+
+[ self class compiler evaluate: self code ] in StartupAction>>execute
+	Receiver: a StartupAction(restoreSynectiqueBackground)
+	Arguments and temporary variables: 
+		block: 	[ self class compiler evaluate: self code ]
+		correctlyExecuted: 	true
+	Receiver's instance variables: 
+		code: 	'(Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiqueBack...etc...
+		hasBeenExecuted: 	false
+		runOnce: 	true
+		nameOfItem: 	nil
+		name: 	#restoreSynectiqueBackground
+
+
+BlockClosure>>on:do:
+	Receiver: [ self class compiler evaluate: self code ]
+	Arguments and temporary variables: 
+		exception: 	an ExceptionSet
+		handlerAction: 	[ :ex | 
+StartupPreferencesLoader default errors
+	add:
+		{ex.
+		...etc...
+	Receiver's instance variables: 
+		outerContext: 	StartupAction>>execute
+		startpc: 	114
+		numArgs: 	0
+
+
+StartupAction>>execute
+	Receiver: a StartupAction(restoreSynectiqueBackground)
+	Arguments and temporary variables: 
+		block: 	[ self class compiler evaluate: self code ]
+		correctlyExecuted: 	true
+	Receiver's instance variables: 
+		code: 	'(Smalltalk at: #PolymorphSystemSettings) perform: #restoreSynectiqueBack...etc...
+		hasBeenExecuted: 	false
+		runOnce: 	true
+		nameOfItem: 	nil
+		name: 	#restoreSynectiqueBackground
+
+
+[ :item :index | 
+bar current: index.
+(self add: item) execute ] in [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an Array(a StartupAction(Syntax) a StartupAction(Variable) a Start...etc...
+		bar: 	a Job
+		item: 	a StartupAction(restoreSynectiqueBackground)
+		index: 	9
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+Array(SequenceableCollection)>>withIndexDo:
+	Receiver: an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+	Arguments and temporary variables: 
+		elementAndIndexBlock: 	[ :item :index | 
+bar current: index.
+(self add: item) ex...etc...
+		index: 	9
+	Receiver's instance variables: 
+an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+
+Array(SequenceableCollection)>>doWithIndex:
+	Receiver: an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+	Arguments and temporary variables: 
+		elementAndIndexBlock: 	[ :item :index | 
+bar current: index.
+(self add: item) ex...etc...
+	Receiver's instance variables: 
+an Array(a StartupAction(Syntax) a StartupAction(Variable) a StartupAction(AST based color...etc...
+
+[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an Array(a StartupAction(Syntax) a StartupAction(Variable) a Start...etc...
+		bar: 	a Job
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+BlockClosure>>cull:
+	Receiver: [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: i...etc...
+	Arguments and temporary variables: 
+		anArg: 	a Job
+	Receiver's instance variables: 
+		outerContext: 	StartupPreferencesLoader>>executeAtomicItems:
+		startpc: 	46
+		numArgs: 	1
+
+
+[ result := block cull: self ] in [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		block: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: ind...etc...
+		currentValue: 	9
+		min: 	0
+		max: 	30
+		title: 	'Load Startup Preferences'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ result := block cull: self ]
+	Arguments and temporary variables: 
+		exception: 	JobNotification
+		handlerAction: 	[ :notification | notification handle: self ]
+	Receiver's instance variables: 
+		outerContext: 	[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: Jo...etc...
+		startpc: 	57
+		numArgs: 	0
+
+
+[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		block: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: ind...etc...
+		currentValue: 	9
+		min: 	0
+		max: 	30
+		title: 	'Load Startup Preferences'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+BlockClosure>>ensure:
+	Receiver: [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :not...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ self cleanupAfterRunning ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	Job>>run
+		startpc: 	49
+		numArgs: 	0
+
+
+Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		block: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: ind...etc...
+		currentValue: 	9
+		min: 	0
+		max: 	30
+		title: 	'Load Startup Preferences'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+MorphicUIManager(UIManager)>>displayProgress:from:to:during:
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+		titleString: 	'Load Startup Preferences'
+		minVal: 	0
+		maxVal: 	30
+		workBlock: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current:...etc...
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	Transcript
+
+
+ByteString(String)>>displayProgressFrom:to:during:
+	Receiver: 'Load Startup Preferences'
+	Arguments and temporary variables: 
+		minVal: 	0
+		maxVal: 	30
+		workBlock: 	[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current:...etc...
+	Receiver's instance variables: 
+'Load Startup Preferences'
+
+StartupPreferencesLoader>>executeAtomicItems:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an Array(a StartupAction(Syntax) a StartupAction(Variable) a Start...etc...
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	a ReadStream
+		itsSelection: 	nil
+		itsSelectionString: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ StartupLoader default
+		executeAtomicItems:
+			{(StartupAction
+			...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+		useFaultyForParsing: 	false
+
+
+DoItDeclaration>>importFor:
+	Receiver: a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+	StartupAction name: 'Synta...etc...
+	Arguments and temporary variables: 
+		requestor: 	a FileCompilerRequestor
+	Receiver's instance variables: 
+		contents: 	'StartupLoader default executeAtomicItems: {
+
+	StartupAction name: ''...etc...
+
+
+[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration contents ].
+value := declaration importFor: requestor ] in CodeImporter>>evaluateDeclarations
+	Receiver: a CodeImporter
+	Arguments and temporary variables: 
+		value: 	nil
+		declaration: 	a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+	St...etc...
+	Receiver's instance variables: 
+		readStream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/ex...etc...
+		codeDeclarations: 	an OrderedCollection(a DoItDeclaration(StartupLoader default ...etc...
+		parserClass: 	ChunkFileFormatParser
+		requestor: 	a FileCompilerRequestor
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+	Start...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration...etc...
+		index: 	1
+	Receiver's instance variables: 
+		array: 	an Array(a DoItDeclaration(StartupLoader default executeAtomicItems: {
+
+...etc...
+		firstIndex: 	1
+		lastIndex: 	1
+
+
+CodeImporter>>evaluateDeclarations
+	Receiver: a CodeImporter
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		readStream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/ex...etc...
+		codeDeclarations: 	an OrderedCollection(a DoItDeclaration(StartupLoader default ...etc...
+		parserClass: 	ChunkFileFormatParser
+		requestor: 	a FileCompilerRequestor
+
+
+CodeImporter class>>evaluateFileStream:
+	Receiver: CodeImporter
+	Arguments and temporary variables: 
+		aFileStream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/e...etc...
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#codeDeclarations->CodeImporter>>#codeDeclaratio...etc...
+		format: 	138
+		layout: 	a FixedLayout
+		instanceVariables: 	#(#readStream #codeDeclarations #parserClass #requestor)
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#CodeImporter
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#CodeImport
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+[ :stream | CodeImporter evaluateFileStream: stream ] in FileReference(AbstractFileReference)>>fileIn
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+		stream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/export...etc...
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+[ aBlock value: stream ] in FileReference(AbstractFileReference)>>readStreamDo:
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | CodeImporter evaluateFileStream: stream ]
+		stream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/export...etc...
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+BlockClosure>>ensure:
+	Receiver: [ aBlock value: stream ]
+	Arguments and temporary variables: 
+		aBlock: 	[ stream close ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	FileReference(AbstractFileReference)>>readStreamDo:
+		startpc: 	34
+		numArgs: 	0
+
+
+FileReference(AbstractFileReference)>>readStreamDo:
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | CodeImporter evaluateFileStream: stream ]
+		stream: 	MultiByteFileStream: '/Users/Cyril/Library/Preferences/pharo/4.0/export...etc...
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+FileReference(AbstractFileReference)>>fileIn
+	Receiver: File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'Library' / 'Preferences' / 'pharo' / '4.0' / ...etc...
+
+
+[ :file | file fileIn ] in StartupPreferencesLoader>>load:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an OrderedCollection(File @ /Users/Cyril/Library/Preferences/pharo...etc...
+		file: 	File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings5.st
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_settings2....etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :file | file fileIn ]
+		index: 	2
+	Receiver's instance variables: 
+		array: 	an Array(File @ /Users/Cyril/Library/Preferences/pharo/4.0/exported_sett...etc...
+		firstIndex: 	1
+		lastIndex: 	5
+
+
+StartupPreferencesLoader>>load:
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+		aCollection: 	an OrderedCollection(File @ /Users/Cyril/Library/Preferences/pharo...etc...
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+StartupPreferencesLoader>>loadFromDefaultLocations
+	Receiver: a StartupPreferencesLoader
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		errors: 	an OrderedCollection(an Array(MessageNotUnderstood: PolymorphSystemSett...etc...
+		actions: 	a Dictionary('AST based coloring'->a StartupAction(AST based coloring)...etc...
+
+
+PharoCommandLineHandler>>runPreferences
+	Receiver: a PharoCommandLineHandler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a Session
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+PharoCommandLineHandler>>activate
+	Receiver: a PharoCommandLineHandler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a Session
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+PharoCommandLineHandler class(CommandLineHandler class)>>activateWith:
+	Receiver: PharoCommandLineHandler
+	Arguments and temporary variables: 
+		aCommandLine: 	a CommandLineArguments
+	Receiver's instance variables: 
+		superclass: 	BasicCommandLineHandler
+		methodDict: 	a MethodDictionary(#activate->PharoCommandLineHandler>>#activate #c...etc...
+		format: 	138
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#PharoCommandLineHandler
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'System-CommandLineHandler'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+
+--- The full stack ---
+PolymorphSystemSettings class(Object)>>doesNotUnderstand: #restoreSynectiqueBackground:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+OpalCompiler(AbstractCompiler)>>evaluate:
+[ self class compiler evaluate: self code ] in StartupAction>>execute
+BlockClosure>>on:do:
+StartupAction>>execute
+[ :item :index | 
+bar current: index.
+(self add: item) execute ] in [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+Array(SequenceableCollection)>>withIndexDo:
+Array(SequenceableCollection)>>doWithIndex:
+[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+BlockClosure>>cull:
+[ result := block cull: self ] in [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+BlockClosure>>on:do:
+[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+BlockClosure>>ensure:
+Job>>run
+MorphicUIManager(UIManager)>>displayProgress:from:to:during:
+ByteString(String)>>displayProgressFrom:to:during:
+StartupPreferencesLoader>>executeAtomicItems:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+DoItDeclaration>>importFor:
+[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration contents ].
+value := declaration importFor: requestor ] in CodeImporter>>evaluateDeclarations
+OrderedCollection>>do:
+CodeImporter>>evaluateDeclarations
+CodeImporter class>>evaluateFileStream:
+[ :stream | CodeImporter evaluateFileStream: stream ] in FileReference(AbstractFileReference)>>fileIn
+[ aBlock value: stream ] in FileReference(AbstractFileReference)>>readStreamDo:
+BlockClosure>>ensure:
+FileReference(AbstractFileReference)>>readStreamDo:
+FileReference(AbstractFileReference)>>fileIn
+[ :file | file fileIn ] in StartupPreferencesLoader>>load:
+OrderedCollection>>do:
+StartupPreferencesLoader>>load:
+StartupPreferencesLoader>>loadFromDefaultLocations
+PharoCommandLineHandler>>runPreferences
+PharoCommandLineHandler>>activate
+PharoCommandLineHandler class(CommandLineHandler class)>>activateWith:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+[ super activateWith: aCommandLine ] in PharoCommandLineHandler class>>activateWith:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+User Interrupt
+1 March 2016 11:06:23.619962 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+GrafPort>>copyBits
+	Receiver: a GrafPort
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		destForm: 	DisplayScreen(1280x750x32)
+		sourceForm: 	Form(16x16x32)
+		halftoneForm: 	nil
+		combinationRule: 	24
+		destX: 	1206.0
+		destY: 	57.0
+		width: 	16
+		height: 	16
+		sourceX: 	0
+		sourceY: 	0
+		clipX: 	1206
+		clipY: 	57
+		clipWidth: 	16
+		clipHeight: 	16
+		colorMap: 	nil
+		alpha: 	nil
+		fillPattern: 	nil
+		lastFont: 	nil
+		lastFontForegroundColor: 	nil
+		lastFontBackgroundColor: 	nil
+
+
+GrafPort(BitBlt)>>copyBits
+	Receiver: a GrafPort
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		destForm: 	DisplayScreen(1280x750x32)
+		sourceForm: 	Form(16x16x32)
+		halftoneForm: 	nil
+		combinationRule: 	24
+		destX: 	1206.0
+		destY: 	57.0
+		width: 	16
+		height: 	16
+		sourceX: 	0
+		sourceY: 	0
+		clipX: 	1206
+		clipY: 	57
+		clipWidth: 	16
+		clipHeight: 	16
+		colorMap: 	nil
+		alpha: 	nil
+		fillPattern: 	nil
+		lastFont: 	nil
+		lastFontForegroundColor: 	nil
+		lastFontBackgroundColor: 	nil
+
+
+GrafPort>>copyBits
+	Receiver: a GrafPort
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		destForm: 	DisplayScreen(1280x750x32)
+		sourceForm: 	Form(16x16x32)
+		halftoneForm: 	nil
+		combinationRule: 	24
+		destX: 	1206.0
+		destY: 	57.0
+		width: 	16
+		height: 	16
+		sourceX: 	0
+		sourceY: 	0
+		clipX: 	1206
+		clipY: 	57
+		clipWidth: 	16
+		clipHeight: 	16
+		colorMap: 	nil
+		alpha: 	nil
+		fillPattern: 	nil
+		lastFont: 	nil
+		lastFontForegroundColor: 	nil
+		lastFontBackgroundColor: 	nil
+
+
+GrafPort>>image:at:sourceRect:rule:
+	Receiver: a GrafPort
+	Arguments and temporary variables: 
+		aForm: 	Form(16x16x32)
+		aPoint: 	(1206.0@57.0)
+		sourceRect: 	(0@0) corner: (16@16)
+		rule: 	24
+	Receiver's instance variables: 
+		destForm: 	DisplayScreen(1280x750x32)
+		sourceForm: 	Form(16x16x32)
+		halftoneForm: 	nil
+		combinationRule: 	24
+		destX: 	1206.0
+		destY: 	57.0
+		width: 	16
+		height: 	16
+		sourceX: 	0
+		sourceY: 	0
+		clipX: 	1206
+		clipY: 	57
+		clipWidth: 	16
+		clipHeight: 	16
+		colorMap: 	nil
+		alpha: 	nil
+		fillPattern: 	nil
+		lastFont: 	nil
+		lastFontForegroundColor: 	nil
+		lastFontBackgroundColor: 	nil
+
+
+FormCanvas>>image:at:sourceRect:rule:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aForm: 	Form(16x16x32)
+		aPoint: 	(1206.0@57.0)
+		sourceRect: 	(0@0) corner: (16@16)
+		rule: 	24
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1206.0@57.0) corner: (1222.0@73.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>translucentImage:at:sourceRect:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aForm: 	Form(16x16x32)
+		aPoint: 	(1206.0@57.0)
+		sourceRect: 	(0@0) corner: (16@16)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1206.0@57.0) corner: (1222.0@73.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>translucentImage:at:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aForm: 	Form(16x16x32)
+		aPoint: 	(1206.0@57.0)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1206.0@57.0) corner: (1222.0@73.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ :c | c translucentImage: self cachedForm at: self layoutPosition ] in AlphaImageMorph>>drawOn:
+	Receiver: an AlphaImageMorph(59506688)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		c: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		owner: 	an AlignmentMorph(534773760)
+		submorphs: 	#()
+		fullBounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (770179072) [other:  (announcer -> an Announcer)]
+		image: 	Form(16x16x32)
+		alpha: 	1.0
+		cachedForm: 	Form(16x16x32)
+		layout: 	#topLeft
+		scale: 	1.0
+		enabled: 	true
+		autoSize: 	true
+		getImageSelector: 	nil
+		model: 	nil
+
+
+FormCanvas>>clipBy:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aRectangle: 	(1206.0@57.0) corner: (1222.0@73.0)
+		aBlock: 	[ :c | c translucentImage: self cachedForm at: self layoutPosition ]
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+AlphaImageMorph>>drawOn:
+	Receiver: an AlphaImageMorph(59506688)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		owner: 	an AlignmentMorph(534773760)
+		submorphs: 	#()
+		fullBounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (770179072) [other:  (announcer -> an Announcer)]
+		image: 	Form(16x16x32)
+		alpha: 	1.0
+		cachedForm: 	Form(16x16x32)
+		layout: 	#topLeft
+		scale: 	1.0
+		enabled: 	true
+		autoSize: 	true
+		getImageSelector: 	nil
+		model: 	nil
+
+
+FormCanvas(Canvas)>>draw:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		anObject: 	an AlphaImageMorph(59506688)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>drawMorph:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlphaImageMorph(59506688)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlphaImageMorph(Morph)>>fullDrawOn:
+	Receiver: an AlphaImageMorph(59506688)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		owner: 	an AlignmentMorph(534773760)
+		submorphs: 	#()
+		fullBounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (770179072) [other:  (announcer -> an Announcer)]
+		image: 	Form(16x16x32)
+		alpha: 	1.0
+		cachedForm: 	Form(16x16x32)
+		layout: 	#topLeft
+		scale: 	1.0
+		enabled: 	true
+		autoSize: 	true
+		getImageSelector: 	nil
+		model: 	nil
+
+
+FormCanvas>>roundCornersOf:in:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlphaImageMorph(59506688)
+		bounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>roundCornersOf:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlphaImageMorph(59506688)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlphaImageMorph(Morph)>>fullDrawOn:
+	Receiver: an AlphaImageMorph(59506688)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		owner: 	an AlignmentMorph(534773760)
+		submorphs: 	#()
+		fullBounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (770179072) [other:  (announcer -> an Announcer)]
+		image: 	Form(16x16x32)
+		alpha: 	1.0
+		cachedForm: 	Form(16x16x32)
+		layout: 	#topLeft
+		scale: 	1.0
+		enabled: 	true
+		autoSize: 	true
+		getImageSelector: 	nil
+		model: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so tha...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+self setProperty: #errorOnDraw toValue: true.
+self set...etc...
+	Receiver's instance variables: 
+		outerContext: 	AlphaImageMorph(Morph)>>fullDrawOn:
+		startpc: 	122
+		numArgs: 	0
+
+
+AlphaImageMorph(Morph)>>fullDrawOn:
+	Receiver: an AlphaImageMorph(59506688)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		owner: 	an AlignmentMorph(534773760)
+		submorphs: 	#()
+		fullBounds: 	(1206.0@57.0) corner: (1222.0@73.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (770179072) [other:  (announcer -> an Announcer)]
+		image: 	Form(16x16x32)
+		alpha: 	1.0
+		cachedForm: 	Form(16x16x32)
+		layout: 	#topLeft
+		scale: 	1.0
+		enabled: 	true
+		autoSize: 	true
+		getImageSelector: 	nil
+		model: 	nil
+
+
+FormCanvas(Canvas)>>fullDraw:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		anObject: 	an AlphaImageMorph(59506688)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>fullDrawMorph:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlphaImageMorph(59506688)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in AlignmentMorph(Morph)>>drawSubmorphsOn:
+	Receiver: an AlignmentMorph(534773760)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		m: 	an AlphaImageMorph(59506688)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		owner: 	a PluggableButtonMorph(803471360)
+		submorphs: 	an Array(an AlphaImageMorph(59506688))
+		fullBounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (557580288)
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+Array(SequenceableCollection)>>reverseDo:
+	Receiver: an Array(an AlphaImageMorph(59506688))
+	Arguments and temporary variables: 
+		aBlock: 	[ :m | canvas fullDrawMorph: m ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(an AlphaImageMorph(59506688))
+
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in AlignmentMorph(Morph)>>drawSubmorphsOn:
+	Receiver: an AlignmentMorph(534773760)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		owner: 	a PluggableButtonMorph(803471360)
+		submorphs: 	an Array(an AlphaImageMorph(59506688))
+		fullBounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (557580288)
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+AlignmentMorph(Morph)>>drawSubmorphsOn:
+	Receiver: an AlignmentMorph(534773760)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+	Receiver's instance variables: 
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		owner: 	a PluggableButtonMorph(803471360)
+		submorphs: 	an Array(an AlphaImageMorph(59506688))
+		fullBounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (557580288)
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlignmentMorph(Morph)>>fullDrawOn:
+	Receiver: an AlignmentMorph(534773760)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		owner: 	a PluggableButtonMorph(803471360)
+		submorphs: 	an Array(an AlphaImageMorph(59506688))
+		fullBounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (557580288)
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+FormCanvas>>roundCornersOf:in:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlignmentMorph(534773760)
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>roundCornersOf:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlignmentMorph(534773760)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlignmentMorph(Morph)>>fullDrawOn:
+	Receiver: an AlignmentMorph(534773760)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		owner: 	a PluggableButtonMorph(803471360)
+		submorphs: 	an Array(an AlphaImageMorph(59506688))
+		fullBounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (557580288)
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+BlockClosure>>on:do:
+	Receiver: [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so tha...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+self setProperty: #errorOnDraw toValue: true.
+self set...etc...
+	Receiver's instance variables: 
+		outerContext: 	AlignmentMorph(Morph)>>fullDrawOn:
+		startpc: 	122
+		numArgs: 	0
+
+
+AlignmentMorph(Morph)>>fullDrawOn:
+	Receiver: an AlignmentMorph(534773760)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		owner: 	a PluggableButtonMorph(803471360)
+		submorphs: 	an Array(an AlphaImageMorph(59506688))
+		fullBounds: 	(1206.0@55.0) corner: (1222.0@75.0)
+		color: 	Color transparent
+		extension: 	a MorphExtension (557580288)
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+FormCanvas(Canvas)>>fullDraw:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		anObject: 	an AlignmentMorph(534773760)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>fullDrawMorph:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	an AlignmentMorph(534773760)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1202.0@53) corner: (1226.0@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PluggableButtonMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a PluggableButtonMorph(803471360)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		m: 	an AlignmentMorph(534773760)
+	Receiver's instance variables: 
+		bounds: 	(1202.0@53.0) corner: (1226.0@77.0)
+		owner: 	a ToolDockingBarMorph(282591232)
+		submorphs: 	an Array(an AlignmentMorph(534773760))
+		fullBounds: 	(1202@53) corner: (1226@77)
+		color: 	Color transparent
+		extension: 	a MorphExtension (870842368) [balloonText]  [other:  (lastState -> f...etc...
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a GLMGenericAction
+		label: 	an AlphaImageMorph(59506688)
+		getStateSelector: 	nil
+		actionSelector: 	#morphicActOn:
+		getLabelSelector: 	nil
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	an Array(a GLMPharoPlaygroundPresentation(id=683933696 title=a GTPla...etc...
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		gradientLook: 	true
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		lastColor: 	nil
+		labelMorph: 	an AlphaImageMorph(59506688)
+
+
+Array(SequenceableCollection)>>reverseDo:
+	Receiver: an Array(an AlignmentMorph(534773760))
+	Arguments and temporary variables: 
+		aBlock: 	[ :m | canvas fullDrawMorph: m ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(an AlignmentMorph(534773760))
+
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PluggableButtonMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a PluggableButtonMorph(803471360)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1202.0@53.0) corner: (1226.0@77.0)
+		owner: 	a ToolDockingBarMorph(282591232)
+		submorphs: 	an Array(an AlignmentMorph(534773760))
+		fullBounds: 	(1202@53) corner: (1226@77)
+		color: 	Color transparent
+		extension: 	a MorphExtension (870842368) [balloonText]  [other:  (lastState -> f...etc...
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a GLMGenericAction
+		label: 	an AlphaImageMorph(59506688)
+		getStateSelector: 	nil
+		actionSelector: 	#morphicActOn:
+		getLabelSelector: 	nil
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	an Array(a GLMPharoPlaygroundPresentation(id=683933696 title=a GTPla...etc...
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		gradientLook: 	true
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		lastColor: 	nil
+		labelMorph: 	an AlphaImageMorph(59506688)
+
+
+FormCanvas>>clipBy:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aRectangle: 	(1202.0@53.0) corner: (1226.0@77.0)
+		aBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(1178.0@53) corner: (1250@77.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+PluggableButtonMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a PluggableButtonMorph(803471360)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+	Receiver's instance variables: 
+		bounds: 	(1202.0@53.0) corner: (1226.0@77.0)
+		owner: 	a ToolDockingBarMorph(282591232)
+		submorphs: 	an Array(an AlignmentMorph(534773760))
+		fullBounds: 	(1202@53) corner: (1226@77)
+		color: 	Color transparent
+		extension: 	a MorphExtension (870842368) [balloonText]  [other:  (lastState -> f...etc...
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a GLMGenericAction
+		label: 	an AlphaImageMorph(59506688)
+		getStateSelector: 	nil
+		actionSelector: 	#morphicActOn:
+		getLabelSelector: 	nil
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	an Array(a GLMPharoPlaygroundPresentation(id=683933696 title=a GTPla...etc...
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		gradientLook: 	true
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		lastColor: 	nil
+		labelMorph: 	an AlphaImageMorph(59506688)
+
+
+PluggableButtonMorph>>drawSubmorphsOn:
+	Receiver: a PluggableButtonMorph(803471360)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1202.0@53.0) corner: (1226.0@77.0)
+		owner: 	a ToolDockingBarMorph(282591232)
+		submorphs: 	an Array(an AlignmentMorph(534773760))
+		fullBounds: 	(1202@53) corner: (1226@77)
+		color: 	Color transparent
+		extension: 	a MorphExtension (870842368) [balloonText]  [other:  (lastState -> f...etc...
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a GLMGenericAction
+		label: 	an AlphaImageMorph(59506688)
+		getStateSelector: 	nil
+		actionSelector: 	#morphicActOn:
+		getLabelSelector: 	nil
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	an Array(a GLMPharoPlaygroundPresentation(id=683933696 title=a GTPla...etc...
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		gradientLook: 	true
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		lastColor: 	nil
+		labelMorph: 	an AlphaImageMorph(59506688)
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PluggableButtonMorph(Morph)>>fullDrawOn:
+	Receiver: a PluggableButtonMorph(803471360)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(1202.0@53.0) corner: (1226.0@77.0)
+		owner: 	a ToolDockingBarMorph(282591232)
+		submorphs: 	an Array(an AlignmentMorph(534773760))
+		fullBounds: 	(1202@53) corner: (1226@77)
+		color: 	Color transparent
+		extension: 	a MorphExtension (870842368) [balloonText]  [other:  (lastState -> f...etc...
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a GLMGenericAction
+		label: 	an AlphaImageMorph(59506688)
+		getStateSelector: 	nil
+		actionSelector: 	#morphicActOn:
+		getLabelSelector: 	nil
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	an Array(a GLMPharoPlaygroundPresentation(id=683933696 title=a GTPla...etc...
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		gradientLook: 	true
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		lastColor: 	nil
+		labelMorph: 	an AlphaImageMorph(59506688)
+
+
+
+--- The full stack ---
+GrafPort>>copyBits
+GrafPort(BitBlt)>>copyBits
+GrafPort>>copyBits
+GrafPort>>image:at:sourceRect:rule:
+FormCanvas>>image:at:sourceRect:rule:
+FormCanvas(Canvas)>>translucentImage:at:sourceRect:
+FormCanvas(Canvas)>>translucentImage:at:
+[ :c | c translucentImage: self cachedForm at: self layoutPosition ] in AlphaImageMorph>>drawOn:
+FormCanvas>>clipBy:during:
+AlphaImageMorph>>drawOn:
+FormCanvas(Canvas)>>draw:
+FormCanvas(Canvas)>>drawMorph:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlphaImageMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlphaImageMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+AlphaImageMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in AlignmentMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in AlignmentMorph(Morph)>>drawSubmorphsOn:
+AlignmentMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlignmentMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in AlignmentMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+AlignmentMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PluggableButtonMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PluggableButtonMorph(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+PluggableButtonMorph(Morph)>>drawSubmorphsOn:
+PluggableButtonMorph>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PluggableButtonMorph(Morph)>>fullDrawOn:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PluggableButtonMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+PluggableButtonMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in ToolDockingBarMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in ToolDockingBarMorph(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+ToolDockingBarMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in ToolDockingBarMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in ToolDockingBarMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+ToolDockingBarMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+PanelMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+PanelMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+PanelMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+PanelMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in LazyTabGroupMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in LazyTabGroupMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+LazyTabGroupMorph(Morph)>>fullDrawOn:
+LazyTabGroupMorph(TabGroupMorph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+PanelMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+PanelMorph(Morph)>>fullDrawOn:
+GLMMorphBrick>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMMorphBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMMorphBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMMorphBrick(Morph)>>fullDrawOn:
+GLMMorphBrick(GLMBrick)>>fullDrawOn:
+[ :each | 
+| intersection canvas globalBounds |
+each
+	ifNotNil: [ 
+		self flag: 'fix nil case'.
+		globalBounds := each isBrick
+			ifTrue: [ each globalBounds ]
+			ifFalse: [ each fullBounds ].
+		(area intersects: globalBounds)
+			ifTrue: [ 
+				| zIndex |
+				zIndex := each layoutProperties zIndex.
+				zIndex = 1
+					ifTrue: [ 
+						"immediately draw ones with the lowest possible z-index.
+					With this approach performance doesn't degrade"
+						intersection := area intersect: globalBounds ifNone: (0 @ 0 extent: 0 @ 0).
+						canvas := aCanvas copyClipRect: intersection.
+						each fullDrawOn: canvas ]
+					ifFalse: [ zIndexedBricks add: each ]	"if z-index is not 1 we add it to collection, in order to sort and draw as second attempt" ] ] ] in GLMScrollPaneBandBrick(GLMBrick)>>drawSubmorphsOn:
+OrderedCollection>>do:
+GLMScrollPaneBandBrick(GLMBrick)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMScrollPaneBandBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMScrollPaneBandBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMScrollPaneBandBrick(Morph)>>fullDrawOn:
+GLMScrollPaneBandBrick(GLMBrick)>>fullDrawOn:
+[ :each | 
+| intersection canvas globalBounds |
+each
+	ifNotNil: [ 
+		self flag: 'fix nil case'.
+		globalBounds := each isBrick
+			ifTrue: [ each globalBounds ]
+			ifFalse: [ each fullBounds ].
+		(area intersects: globalBounds)
+			ifTrue: [ 
+				| zIndex |
+				zIndex := each layoutProperties zIndex.
+				zIndex = 1
+					ifTrue: [ 
+						"immediately draw ones with the lowest possible z-index.
+					With this approach performance doesn't degrade"
+						intersection := area intersect: globalBounds ifNone: (0 @ 0 extent: 0 @ 0).
+						canvas := aCanvas copyClipRect: intersection.
+						each fullDrawOn: canvas ]
+					ifFalse: [ zIndexedBricks add: each ]	"if z-index is not 1 we add it to collection, in order to sort and draw as second attempt" ] ] ] in GLMPagerScrollBrick(GLMBrick)>>drawSubmorphsOn:
+OrderedCollection>>do:
+GLMPagerScrollBrick(GLMBrick)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerScrollBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerScrollBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMPagerScrollBrick(Morph)>>fullDrawOn:
+GLMPagerScrollBrick(GLMBrick)>>fullDrawOn:
+[ :each | 
+| intersection canvas globalBounds |
+each
+	ifNotNil: [ 
+		self flag: 'fix nil case'.
+		globalBounds := each isBrick
+			ifTrue: [ each globalBounds ]
+			ifFalse: [ each fullBounds ].
+		(area intersects: globalBounds)
+			ifTrue: [ 
+				| zIndex |
+				zIndex := each layoutProperties zIndex.
+				zIndex = 1
+					ifTrue: [ 
+						"immediately draw ones with the lowest possible z-index.
+					With this approach performance doesn't degrade"
+						intersection := area intersect: globalBounds ifNone: (0 @ 0 extent: 0 @ 0).
+						canvas := aCanvas copyClipRect: intersection.
+						each fullDrawOn: canvas ]
+					ifFalse: [ zIndexedBricks add: each ]	"if z-index is not 1 we add it to collection, in order to sort and draw as second attempt" ] ] ] in GLMPagerBrick(GLMBrick)>>drawSubmorphsOn:
+OrderedCollection>>do:
+GLMPagerBrick(GLMBrick)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMPagerBrick(Morph)>>fullDrawOn:
+GLMPagerBrick(GLMBrick)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMFoundationBrick(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMFoundationBrick(Morph)>>drawSubmorphsOn:
+GLMFoundationBrick(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMFoundationBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMFoundationBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMFoundationBrick(Morph)>>fullDrawOn:
+GLMFoundationBrick>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMSystemWindow(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMSystemWindow(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+GLMSystemWindow(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMSystemWindow(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMSystemWindow(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMSystemWindow(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :r | 
+| mm rect i c remnantIntersects remnants rectToFill |
+"Experimental top-down drawing --
+			Traverses top to bottom, stopping if the entire area is filled.
+			If only a single rectangle remains, then continue with the reduced rectangle."
+rectToFill := r.
+remnants := OrderedCollection with: r.
+i := 1.
+[ remnants isEmpty or: [ i > n ] ]
+	whileFalse: [ 
+		mm := submorphs at: i.
+		((remnantIntersects := remnants select: [ :each | mm fullBounds intersects: each ]) notEmpty and: [ mm visible ])
+			ifTrue: [ 
+				morphs addLast: mm.
+				rects addLast: (Rectangle merging: (remnantIntersects collect: [ :each | mm fullBounds intersect: each ])).
+				remnants removeAll: remnantIntersects.
+				remnantIntersects do: [ :eachIntersect | remnants addAll: (mm areasRemainingToFill: eachIntersect) ].
+				remnants size = 1
+					ifTrue: [ rectToFill := remnants first ].
+				remnants isEmpty
+					ifTrue: [ rectToFill := nil ] ].
+		i := i + 1 ].	"Now paint from bottom to top, but using the reduced rectangles."
+rectToFill ifNotNil: [ aWorld drawOn: (c := aCanvas copyClipRect: rectToFill) ].
+[ morphs isEmpty ]
+	whileFalse: [ 
+		(rect := rects removeLast) == rectToFill
+			ifFalse: [ c := aCanvas copyClipRect: (rectToFill := rect) ].
+		c fullDrawMorph: morphs removeLast ].
+morphs reset.
+rects reset.
+validList add: r ] in [ :dirtyRect | 
+dirtyRect
+	allAreasOutsideList: validList
+	do: [ :r | 
+		| mm rect i c remnantIntersects remnants rectToFill |
+		"Experimental top-down drawing --
+			Traverses top to bottom, stopping if the entire area is filled.
+			If only a single rectangle remains, then continue with the reduced rectangle."
+		rectToFill := r.
+		remnants := OrderedCollection with: r.
+		i := 1.
+		[ remnants isEmpty or: [ i > n ] ]
+			whileFalse: [ 
+				mm := submorphs at: i.
+				((remnantIntersects := remnants select: [ :each | mm fullBounds intersects: each ]) notEmpty and: [ mm visible ])
+					ifTrue: [ 
+						morphs addLast: mm.
+						rects addLast: (Rectangle merging: (remnantIntersects collect: [ :each | mm fullBounds intersect: each ])).
+						remnants removeAll: remnantIntersects.
+						remnantIntersects do: [ :eachIntersect | remnants addAll: (mm areasRemainingToFill: eachIntersect) ].
+						remnants size = 1
+							ifTrue: [ rectToFill := remnants first ].
+						remnants isEmpty
+							ifTrue: [ rectToFill := nil ] ].
+				i := i + 1 ].	"Now paint from bottom to top, but using the reduced rectangles."
+		rectToFill ifNotNil: [ aWorld drawOn: (c := aCanvas copyClipRect: rectToFill) ].
+		[ morphs isEmpty ]
+			whileFalse: [ 
+				(rect := rects removeLast) == rectToFill
+					ifFalse: [ c := aCanvas copyClipRect: (rectToFill := rect) ].
+				c fullDrawMorph: morphs removeLast ].
+		morphs reset.
+		rects reset.
+		validList add: r ] ] in WorldState>>drawWorld:submorphs:invalidAreasOn:
+Rectangle>>allAreasOutsideList:startingAt:do:
+Rectangle>>allAreasOutsideList:do:
+[ :dirtyRect | 
+dirtyRect
+	allAreasOutsideList: validList
+	do: [ :r | 
+		| mm rect i c remnantIntersects remnants rectToFill |
+		"Experimental top-down drawing --
+			Traverses top to bottom, stopping if the entire area is filled.
+			If only a single rectangle remains, then continue with the reduced rectangle."
+		rectToFill := r.
+		remnants := OrderedCollection with: r.
+		i := 1.
+		[ remnants isEmpty or: [ i > n ] ]
+			whileFalse: [ 
+				mm := submorphs at: i.
+				((remnantIntersects := remnants select: [ :each | mm fullBounds intersects: each ]) notEmpty and: [ mm visible ])
+					ifTrue: [ 
+						morphs addLast: mm.
+						rects addLast: (Rectangle merging: (remnantIntersects collect: [ :each | mm fullBounds intersect: each ])).
+						remnants removeAll: remnantIntersects.
+						remnantIntersects do: [ :eachIntersect | remnants addAll: (mm areasRemainingToFill: eachIntersect) ].
+						remnants size = 1
+							ifTrue: [ rectToFill := remnants first ].
+						remnants isEmpty
+							ifTrue: [ rectToFill := nil ] ].
+				i := i + 1 ].	"Now paint from bottom to top, but using the reduced rectangles."
+		rectToFill ifNotNil: [ aWorld drawOn: (c := aCanvas copyClipRect: rectToFill) ].
+		[ morphs isEmpty ]
+			whileFalse: [ 
+				(rect := rects removeLast) == rectToFill
+					ifFalse: [ c := aCanvas copyClipRect: (rectToFill := rect) ].
+				c fullDrawMorph: morphs removeLast ].
+		morphs reset.
+		rects reset.
+		validList add: r ] ] in WorldState>>drawWorld:submorphs:invalidAreasOn:
+Array(SequenceableCollection)>>do:
+WorldState>>drawWorld:submorphs:invalidAreasOn:
+[ 
+| worldDamageRects handDamageRects |
+worldDamageRects := self drawWorld: aWorld submorphs: submorphs invalidAreasOn: canvas.	"repair world's damage on canvas"	"self handsDo:[:h| h noticeDamageRects: worldDamageRects]."
+handsToDraw := self selectHandsToDrawForDamage: worldDamageRects.
+handDamageRects := handsToDraw collect: [ :h | h savePatchFrom: canvas ].
+allDamage := worldDamageRects , handDamageRects.
+handsToDraw reverseDo: [ :h | canvas fullDrawMorph: h ]	"draw hands onto world canvas" ] in WorldState>>displayWorld:submorphs:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+WorldState>>displayWorld:submorphs:
+WorldMorph>>displayWorld
+SystemProgressMorph>>refresh
+SystemProgressMorph>>update:
+MorphChanged>>deliverTo:
+SystemProgressMorph(Morph)>>handleUpdate:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in WeakAnnouncementSubscription>>deliver:
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+WeakAnnouncementSubscription>>deliver:
+[ subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt:
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+-- and more not shown ---------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+User Interrupt
+1 March 2016 11:06:24.611423 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection((348@150) corner: (1176@292) (0@722) corner: (1280@750) (348@641) cor...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :r | self forceToScreen: r ]
+	Receiver's instance variables: 
+		array: 	{(348@150) corner: (1176@292). (0@722) corner: (1280@750). (348@641) cor...etc...
+		firstIndex: 	1
+		lastIndex: 	5
+
+
+DisplayScreen>>forceDamageToScreen:
+	Receiver: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		rectList: 	an OrderedCollection((348@150) corner: (1176@292) (0@722) corner: (12...etc...
+		allDamage: 	an OrderedCollection((348@150) corner: (1176@292) (0@722) corner: (1...etc...
+		regions: 	nil
+	Receiver's instance variables: 
+		bits: 	a Bitmap of length 960000
+		width: 	1280
+		height: 	750
+		depth: 	32
+		offset: 	(0@0)
+		clippingBox: 	(0@0) corner: (1280@750)
+		extraRegions: 	nil
+
+
+WorldState>>forceDamageToScreen:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		allDamage: 	an OrderedCollection((348@150) corner: (1176@292) (0@722) corner: (1...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SpecDropListMorph(898367488))(a Spec...etc...
+		lastStepTime: 	1381
+		lastStepMessage: 	nil
+		lastCycleTime: 	1372
+		alarms: 	a Heap()
+		lastAlarmTime: 	1381
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldState>>displayWorld:submorphs:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+		submorphs: 	an Array(a TaskbarMorph(984088576) a SystemProgressMorph(819462144) ...etc...
+		deferredUpdateMode: 	true
+		allDamage: 	an OrderedCollection((348@150) corner: (1176@292) (0@722) corner: (1...etc...
+		handsToDraw: 	#()
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SpecDropListMorph(898367488))(a Spec...etc...
+		lastStepTime: 	1381
+		lastStepMessage: 	nil
+		lastCycleTime: 	1372
+		alarms: 	a Heap()
+		lastAlarmTime: 	1381
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldMorph>>displayWorld
+	Receiver: a WorldMorph(511705088) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1280@750)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(984088576) a SystemProgressMorph(819462144) ...etc...
+		fullBounds: 	nil
+		color: 	(Color r: 0.937 g: 0.937 b: 0.937 alpha: 1.0)
+		extension: 	a MorphExtension (552861696) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+[ aWorld displayWorld ] in WorldState>>displayWorldSafely:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SpecDropListMorph(898367488))(a Spec...etc...
+		lastStepTime: 	1381
+		lastStepMessage: 	nil
+		lastCycleTime: 	1372
+		alarms: 	a Heap()
+		lastAlarmTime: 	1381
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+BlockClosure>>on:do:
+	Receiver: [ aWorld displayWorld ]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex | errorHandlerBlock cull: ex description cull: ex receiver...etc...
+	Receiver's instance variables: 
+		outerContext: 	WorldState>>displayWorldSafely:
+		startpc: 	82
+		numArgs: 	0
+
+
+BlockClosure>>ifError:
+	Receiver: [ aWorld displayWorld ]
+	Arguments and temporary variables: 
+		errorHandlerBlock: 	[ :err :rcvr | 
+| errCtx "Handle a drawing error" errMorph |...etc...
+	Receiver's instance variables: 
+		outerContext: 	WorldState>>displayWorldSafely:
+		startpc: 	82
+		numArgs: 	0
+
+
+WorldState>>displayWorldSafely:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SpecDropListMorph(898367488))(a Spec...etc...
+		lastStepTime: 	1381
+		lastStepMessage: 	nil
+		lastCycleTime: 	1372
+		alarms: 	a Heap()
+		lastAlarmTime: 	1381
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SpecDropListMorph(898367488))(a Spec...etc...
+		lastStepTime: 	1381
+		lastStepMessage: 	nil
+		lastCycleTime: 	1372
+		alarms: 	a Heap()
+		lastAlarmTime: 	1381
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SpecDropListMorph(898367488))(a Spec...etc...
+		lastStepTime: 	1381
+		lastStepMessage: 	nil
+		lastCycleTime: 	1372
+		alarms: 	a Heap()
+		lastAlarmTime: 	1381
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(511705088) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1280@750)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(984088576) a SystemProgressMorph(819462144) ...etc...
+		fullBounds: 	nil
+		color: 	(Color r: 0.937 g: 0.937 b: 0.937 alpha: 1.0)
+		extension: 	a MorphExtension (552861696) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	Transcript
+
+
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	65
+		numArgs: 	0
+
+
+
+--- The full stack ---
+OrderedCollection>>do:
+DisplayScreen>>forceDamageToScreen:
+WorldState>>forceDamageToScreen:
+WorldState>>displayWorld:submorphs:
+WorldMorph>>displayWorld
+[ aWorld displayWorld ] in WorldState>>displayWorldSafely:
+BlockClosure>>on:do:
+BlockClosure>>ifError:
+WorldState>>displayWorldSafely:
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+FileDoesNotExist: File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+1 March 2016 11:07:12.821628 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+FileHandle>>streamError
+	Receiver: a FileHandle
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		reference: 	File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+		writable: 	false
+		id: 	nil
+
+
+FileHandle>>readStream
+	Receiver: a FileHandle
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		reference: 	File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+		writable: 	false
+		id: 	nil
+
+
+FileSystem>>readStreamOn:
+	Receiver: a FileSystem
+	Arguments and temporary variables: 
+		aResolvable: 	Path / 'Users' / 'Cyril' / 'TP' / 'M1' / 'M1FdD' / 'TPClusterisati...etc...
+	Receiver's instance variables: 
+		workingDirectory: 	Path / 'Users' / 'Cyril' / 'TP' / 'M1' / 'M1FdD' / 'TPCluster...etc...
+		store: 	a MacStore
+
+
+FileReference>>readStream
+	Receiver: File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'TP' / 'M1' / 'M1FdD' / 'TPClusterisation' / '...etc...
+
+
+FileReference(AbstractFileReference)>>readStreamDo:
+	Receiver: File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | ^ stream contents ]
+		stream: 	nil
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'TP' / 'M1' / 'M1FdD' / 'TPClusterisation' / '...etc...
+
+
+FileReference(AbstractFileReference)>>contents
+	Receiver: File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'Users' / 'Cyril' / 'TP' / 'M1' / 'M1FdD' / 'TPClusterisation' / '...etc...
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+		groups: 	nil
+		grouptmp: 	nil
+		distanceLambda: 	nil
+		averageLambda: 	nil
+		datas: 	nil
+		doc: 	File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+		max: 	nil
+		min: 	nil
+		rand: 	a Random
+		k: 	3
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'|  distanceLambda averageLambda datas doc max min rand k group...etc...
+		itsSelection: 	a Text for '|  distanceLambda averageLambda datas doc max min ran...etc...
+		itsSelectionString: 	'|  distanceLambda averageLambda datas doc max min rand k g...etc...
+	Receiver's instance variables: 
+		ast: 	<<error during printing>>
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(519045120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | result inspect ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(519045120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ 
+textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoPlaygroundRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(972816384)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(519045120)
+	Arguments and temporary variables: 
+		editBlock: 	[ 
+textMorph textArea editor highlightEvaluateAndDo: ann action.
+tex...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1197@1190)
+		owner: 	a TransformWithLayoutMorph(1064304640)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(648544256) a RubCursor(102262374...etc...
+		fullBounds: 	(0@0) corner: (1197@1190)
+		color: 	Color transparent
+		extension: 	a MorphExtension (1018167296) [other:  (announcer -> an Announcer) (...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1044119552)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color transparent
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(1022623744)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(807927808))
+		getMenuPolicy: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoPlaygroundRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(972816384)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor ...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	20224
+		lastStepMessage: 	nil
+		lastCycleTime: 	49746
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1022623744)))
+		lastAlarmTime: 	49770
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(511705088) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1280@750)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(984088576) a GLMSystemWindow(312475648) a GL...etc...
+		fullBounds: 	(0@0) corner: (1280@750)
+		color: 	(Color r: 0.937 g: 0.937 b: 0.937 alpha: 1.0)
+		extension: 	a MorphExtension (552861696) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	20224
+		lastStepMessage: 	nil
+		lastCycleTime: 	49746
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1022623744)))
+		lastAlarmTime: 	49770
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	20224
+		lastStepMessage: 	nil
+		lastCycleTime: 	49746
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1022623744)))
+		lastAlarmTime: 	49770
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(511705088) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1280@750)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(984088576) a GLMSystemWindow(312475648) a GL...etc...
+		fullBounds: 	(0@0) corner: (1280@750)
+		color: 	(Color r: 0.937 g: 0.937 b: 0.937 alpha: 1.0)
+		extension: 	a MorphExtension (552861696) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	Transcript
+
+
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	65
+		numArgs: 	0
+
+
+
+--- The full stack ---
+FileHandle>>streamError
+FileHandle>>readStream
+FileSystem>>readStreamOn:
+FileReference>>readStream
+FileReference(AbstractFileReference)>>readStreamDo:
+FileReference(AbstractFileReference)>>contents
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ 
+textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Halt
+1 March 2016 11:08:14.156678 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+[ :center | 1 halt ] in UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+nil
+
+Array(SequenceableCollection)>>collect:
+	Receiver: #(#(5.005999999999999 3.418 1.464 0.24399999999999994) #(5.783333333333334 2.6645833333333...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :center | 1 halt ]
+		newCollection: 	#(nil nil nil)
+		index: 	1
+	Receiver's instance variables: 
+#(#(5.005999999999999 3.418 1.464 0.24399999999999994) #(5.783333333333334 2.6645833333333...etc...
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+		groups: 	an OrderedDictionary(#(5.005999999999999 3.418 1.464 0.2439999999999999...etc...
+		grouptmp: 	an OrderedDictionary(#(5.005999999999999 3.418 1.464 0.24399999999999...etc...
+		distanceLambda: 	[ :dist :dist2 | 
+((1 to: dist size) collect: [ :ind | (((dist ...etc...
+		averageLambda: 	[ :aCollection | (1 to: aCollection first size) collect: [ :ind ...etc...
+		datas: 	an OrderedCollection(an OrderedCollection(5.1 3.5 1.4 0.2) an OrderedCol...etc...
+		doc: 	File @ /Users/Cyril/TP/M1/M1FdD/TPClusterisation/Pharo/iris.arff
+		max: 	#(7.9 4.4 6.9 2.5)
+		min: 	#(4.3 2.0 1.0 0.1)
+		rand: 	a Random
+		k: 	3
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'|  distanceLambda averageLambda datas doc max min rand k group...etc...
+		itsSelection: 	a Text for '|  distanceLambda averageLambda datas doc max min ran...etc...
+		itsSelectionString: 	'|  distanceLambda averageLambda datas doc max min rand k g...etc...
+	Receiver's instance variables: 
+		ast: 	<<error during printing>>
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(519045120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | result inspect ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(519045120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ 
+textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoPlaygroundRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(972816384)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(519045120)
+	Arguments and temporary variables: 
+		editBlock: 	[ 
+textMorph textArea editor highlightEvaluateAndDo: ann action.
+tex...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1197@1190)
+		owner: 	a TransformWithLayoutMorph(1064304640)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(648544256) a RubCursor(102262374...etc...
+		fullBounds: 	(0@0) corner: (1197@1190)
+		color: 	Color transparent
+		extension: 	a MorphExtension (1018167296) [other:  (announcer -> an Announcer) (...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1044119552)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color transparent
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(1022623744)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(968622080))
+		getMenuPolicy: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoPlaygroundRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(972816384)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor ...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	89235
+		lastStepMessage: 	nil
+		lastCycleTime: 	111011
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1022623744)))
+		lastAlarmTime: 	111013
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(511705088) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1280@750)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(984088576) a GLMSystemWindow(312475648) a GL...etc...
+		fullBounds: 	(0@0) corner: (1280@750)
+		color: 	(Color r: 0.937 g: 0.937 b: 0.937 alpha: 1.0)
+		extension: 	a MorphExtension (552861696) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	89235
+		lastStepMessage: 	nil
+		lastCycleTime: 	111011
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1022623744)))
+		lastAlarmTime: 	111013
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(511705088) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(760479744))
+		viewBox: 	(0@0) corner: (1280@750)
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	89235
+		lastStepMessage: 	nil
+		lastCycleTime: 	111011
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1022623744)))
+		lastAlarmTime: 	111013
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(511705088) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1280@750)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(984088576) a GLMSystemWindow(312475648) a GL...etc...
+		fullBounds: 	(0@0) corner: (1280@750)
+		color: 	(Color r: 0.937 g: 0.937 b: 0.937 alpha: 1.0)
+		extension: 	a MorphExtension (552861696) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	Transcript
+
+
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	65
+		numArgs: 	0
+
+
+
+--- The full stack ---
+[ :center | 1 halt ] in UndefinedObject>>DoIt
+Array(SequenceableCollection)>>collect:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ 
+textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ 
+textMorph textArea
+	handleEdit: [ 
+		textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoPlaygroundRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+User Interrupt
+1 March 2016 11:09:36.9703 pm
+
+VM: Mac OS - intel - 1092 - NBCoInterpreter NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+NBCogit NativeBoost-CogPlugin-HolgerHansPeterFreyther.21 uuid: e0df6e2d-5694-40e2-8035-dc217200b424 Sep 25 2014
+https://github.com/pharo-project/pharo-vm.git Commit: 81b5d19917dcb78f22482a780deec48c53738396 Date: 2014-09-20 14:36:18 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14858
+
+Image: Pharo4.0 [Latest update: #40626]
+
+Pharo3TabPanelBorder>>frameRectangle:on:
+	Receiver: (Pharo3TabPanelBorder width: 1 color: (Color r: 0.784 g: 0.784 b: 0.784 alpha: 1.0))
+	Arguments and temporary variables: 
+		aRectangle: 	(30.0@76.0) corner: (1250.0@696.0)
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		w: 	nil
+		h: 	nil
+		r: 	nil
+		tab: 	nil
+	Receiver's instance variables: 
+		baseColor: 	(Color r: 0.784 g: 0.784 b: 0.784 alpha: 1.0)
+		color: 	(Color r: 0.784 g: 0.784 b: 0.784 alpha: 1.0)
+		width: 	1
+		tabSelector: 	a GLMTabSelectorBrick(337641472)
+
+
+FormCanvas(Canvas)>>fillRectangle:fillStyle:borderStyle:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aRectangle: 	(30.0@76.0) corner: (1250.0@696.0)
+		aFillStyle: 	(Color r: 0.901 g: 0.901 b: 0.901 alpha: 1.0)
+		aBorderStyle: 	(Pharo3TabPanelBorder width: 1 color: (Color r: 0.784 g: 0.784 b:...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+PanelMorph(Morph)>>drawOn:
+	Receiver: a PanelMorph(454557696)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@76.0) corner: (1250.0@696.0)
+		owner: 	a LazyTabGroupMorph(261881856)
+		submorphs: 	an Array(a RubScrolledTextMorph(972816384))
+		fullBounds: 	(30@76) corner: (1250@696)
+		color: 	(Color r: 0.901 g: 0.901 b: 0.901 alpha: 1.0)
+		extension: 	a MorphExtension (497287168) [sticky]  [other:  (roundedCorners -> #...etc...
+		borderWidth: 	1
+		borderColor: 	#tabbed
+
+
+FormCanvas(Canvas)>>draw:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		anObject: 	a PanelMorph(454557696)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>drawMorph:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a PanelMorph(454557696)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+	Receiver: a PanelMorph(454557696)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@76.0) corner: (1250.0@696.0)
+		owner: 	a LazyTabGroupMorph(261881856)
+		submorphs: 	an Array(a RubScrolledTextMorph(972816384))
+		fullBounds: 	(30@76) corner: (1250@696)
+		color: 	(Color r: 0.901 g: 0.901 b: 0.901 alpha: 1.0)
+		extension: 	a MorphExtension (497287168) [sticky]  [other:  (roundedCorners -> #...etc...
+		borderWidth: 	1
+		borderColor: 	#tabbed
+
+
+FormCanvas>>roundCornersOf:in:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a PanelMorph(454557696)
+		bounds: 	(30.0@76.0) corner: (1250.0@696.0)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>roundCornersOf:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a PanelMorph(454557696)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+	Receiver: a PanelMorph(454557696)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@76.0) corner: (1250.0@696.0)
+		owner: 	a LazyTabGroupMorph(261881856)
+		submorphs: 	an Array(a RubScrolledTextMorph(972816384))
+		fullBounds: 	(30@76) corner: (1250@696)
+		color: 	(Color r: 0.901 g: 0.901 b: 0.901 alpha: 1.0)
+		extension: 	a MorphExtension (497287168) [sticky]  [other:  (roundedCorners -> #...etc...
+		borderWidth: 	1
+		borderColor: 	#tabbed
+
+
+BlockClosure>>on:do:
+	Receiver: [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so tha...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+self setProperty: #errorOnDraw toValue: true.
+self set...etc...
+	Receiver's instance variables: 
+		outerContext: 	PanelMorph(Morph)>>fullDrawOn:
+		startpc: 	122
+		numArgs: 	0
+
+
+PanelMorph(Morph)>>fullDrawOn:
+	Receiver: a PanelMorph(454557696)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@76.0) corner: (1250.0@696.0)
+		owner: 	a LazyTabGroupMorph(261881856)
+		submorphs: 	an Array(a RubScrolledTextMorph(972816384))
+		fullBounds: 	(30@76) corner: (1250@696)
+		color: 	(Color r: 0.901 g: 0.901 b: 0.901 alpha: 1.0)
+		extension: 	a MorphExtension (497287168) [sticky]  [other:  (roundedCorners -> #...etc...
+		borderWidth: 	1
+		borderColor: 	#tabbed
+
+
+FormCanvas(Canvas)>>fullDraw:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		anObject: 	a PanelMorph(454557696)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>fullDrawMorph:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a PanelMorph(454557696)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		m: 	a PanelMorph(454557696)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+Array(SequenceableCollection)>>reverseDo:
+	Receiver: an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+	Arguments and temporary variables: 
+		aBlock: 	[ :m | canvas fullDrawMorph: m ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in LazyTabGroupMorph(Morph)>>fullDrawOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+FormCanvas>>roundCornersOf:in:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a LazyTabGroupMorph(261881856)
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>roundCornersOf:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a LazyTabGroupMorph(261881856)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in LazyTabGroupMorph(Morph)>>fullDrawOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so tha...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+self setProperty: #errorOnDraw toValue: true.
+self set...etc...
+	Receiver's instance variables: 
+		outerContext: 	LazyTabGroupMorph(Morph)>>fullDrawOn:
+		startpc: 	122
+		numArgs: 	0
+
+
+LazyTabGroupMorph(Morph)>>fullDrawOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+LazyTabGroupMorph(TabGroupMorph)>>fullDrawOn:
+	Receiver: a LazyTabGroupMorph(261881856)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a PanelMorph(80216064)
+		submorphs: 	an Array(a PanelMorph(454557696) a PanelMorph(846725120))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	Color transparent
+		extension: 	a MorphExtension (323485696) [other:  (kmDispatcher -> a KMDispatche...etc...
+		borderWidth: 	0
+		borderColor: 	Color yellow
+		model: 	nil
+		tabSelectorMorph: 	a GLMTabSelectorBrick(337641472)
+		contentMorph: 	a PanelMorph(454557696)
+		pageMorphs: 	an OrderedCollection(a LazyTabPage(113246208))
+		announcer: 	a GLMAnnouncer
+		toolbarMorph: 	a PanelMorph(725090304)
+		headerMorph: 	a PanelMorph(846725120)
+		tabSelectorWidth: 	nil
+
+
+FormCanvas(Canvas)>>fullDraw:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		anObject: 	a LazyTabGroupMorph(261881856)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>fullDrawMorph:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a LazyTabGroupMorph(261881856)
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a PanelMorph(80216064)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		m: 	a LazyTabGroupMorph(261881856)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a GLMMorphBrick(1057226752)
+		submorphs: 	an Array(a LazyTabGroupMorph(261881856))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000000001...etc...
+		extension: 	a MorphExtension (135004160) [sticky]  [other:  (brickDoubleLink -> ...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+Array(SequenceableCollection)>>reverseDo:
+	Receiver: an Array(a LazyTabGroupMorph(261881856))
+	Arguments and temporary variables: 
+		aBlock: 	[ :m | canvas fullDrawMorph: m ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a LazyTabGroupMorph(261881856))
+
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a PanelMorph(80216064)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+		canvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a GLMMorphBrick(1057226752)
+		submorphs: 	an Array(a LazyTabGroupMorph(261881856))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000000001...etc...
+		extension: 	a MorphExtension (135004160) [sticky]  [other:  (brickDoubleLink -> ...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+FormCanvas>>clipBy:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aRectangle: 	(30.0@53.0) corner: (1250.0@696.0)
+		aBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+PanelMorph(Morph)>>drawSubmorphsOn:
+	Receiver: a PanelMorph(80216064)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		drawBlock: 	[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ]
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a GLMMorphBrick(1057226752)
+		submorphs: 	an Array(a LazyTabGroupMorph(261881856))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000000001...etc...
+		extension: 	a MorphExtension (135004160) [sticky]  [other:  (brickDoubleLink -> ...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+	Receiver: a PanelMorph(80216064)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a GLMMorphBrick(1057226752)
+		submorphs: 	an Array(a LazyTabGroupMorph(261881856))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000000001...etc...
+		extension: 	a MorphExtension (135004160) [sticky]  [other:  (brickDoubleLink -> ...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+FormCanvas>>roundCornersOf:in:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a PanelMorph(80216064)
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+FormCanvas(Canvas)>>roundCornersOf:during:
+	Receiver: a FormCanvas on: DisplayScreen(1280x750x32)
+	Arguments and temporary variables: 
+		aMorph: 	a PanelMorph(80216064)
+		aBlock: 	[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ...etc...
+	Receiver's instance variables: 
+		origin: 	(0.0@0.0)
+		clipRect: 	(30@53) corner: (1250@696.0)
+		form: 	DisplayScreen(1280x750x32)
+		port: 	a GrafPort
+
+
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+	Receiver: a PanelMorph(80216064)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a GLMMorphBrick(1057226752)
+		submorphs: 	an Array(a LazyTabGroupMorph(261881856))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000000001...etc...
+		extension: 	a MorphExtension (135004160) [sticky]  [other:  (brickDoubleLink -> ...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+BlockClosure>>on:do:
+	Receiver: [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so tha...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+self setProperty: #errorOnDraw toValue: true.
+self set...etc...
+	Receiver's instance variables: 
+		outerContext: 	PanelMorph(Morph)>>fullDrawOn:
+		startpc: 	122
+		numArgs: 	0
+
+
+PanelMorph(Morph)>>fullDrawOn:
+	Receiver: a PanelMorph(80216064)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (1250.0@696.0)
+		owner: 	a GLMMorphBrick(1057226752)
+		submorphs: 	an Array(a LazyTabGroupMorph(261881856))
+		fullBounds: 	(30@53) corner: (1250@696)
+		color: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000000001...etc...
+		extension: 	a MorphExtension (135004160) [sticky]  [other:  (brickDoubleLink -> ...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+
+
+GLMMorphBrick>>drawSubmorphsOn:
+	Receiver: a GLMMorphBrick(1057226752)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+		rectangle: 	(30@53) corner: (1250@696.0)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (80.0@93.0)
+		owner: 	a GLMScrollPaneBandBrick(996671488)
+		submorphs: 	an OrderedCollection(a PanelMorph(80216064))
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	a MorphExtension (30146560) [other:  (brickRenderer -> a GLMBrickRen...etc...
+		brickBounds: 	a GLMBrickBounds
+		brickApi: 	a GLMBrickWrapper
+		morph: 	a PanelMorph(80216064)
+		resizing: 	nil
+		isLayouting: 	false
+		vResizing: 	#spaceFill
+		hResizing: 	nil
+
+
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMMorphBrick(Morph)>>fullDrawOn:
+	Receiver: a GLMMorphBrick(1057226752)
+	Arguments and temporary variables: 
+		aCanvas: 	a FormCanvas on: DisplayScreen(1280x750x32)
+	Receiver's instance variables: 
+		bounds: 	(30.0@53.0) corner: (80.0@93.0)
+		owner: 	a GLMScrollPaneBandBrick(996671488)
+		submorphs: 	an OrderedCollection(a PanelMorph(80216064))
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	a MorphExtension (30146560) [other:  (brickRenderer -> a GLMBrickRen...etc...
+		brickBounds: 	a GLMBrickBounds
+		brickApi: 	a GLMBrickWrapper
+		morph: 	a PanelMorph(80216064)
+		resizing: 	nil
+		isLayouting: 	false
+		vResizing: 	#spaceFill
+		hResizing: 	nil
+
+
+
+--- The full stack ---
+Pharo3TabPanelBorder>>frameRectangle:on:
+FormCanvas(Canvas)>>fillRectangle:fillStyle:borderStyle:
+PanelMorph(Morph)>>drawOn:
+FormCanvas(Canvas)>>draw:
+FormCanvas(Canvas)>>drawMorph:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+PanelMorph(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+LazyTabGroupMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in LazyTabGroupMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in LazyTabGroupMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+LazyTabGroupMorph(Morph)>>fullDrawOn:
+LazyTabGroupMorph(TabGroupMorph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in PanelMorph(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+PanelMorph(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in PanelMorph(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+PanelMorph(Morph)>>fullDrawOn:
+GLMMorphBrick>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMMorphBrick(Morph)>>fullDrawOn:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMMorphBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMMorphBrick(Morph)>>fullDrawOn:
+GLMMorphBrick(GLMBrick)>>fullDrawOn:
+[ :each | 
+| intersection canvas globalBounds |
+each
+	ifNotNil: [ 
+		self flag: 'fix nil case'.
+		globalBounds := each isBrick
+			ifTrue: [ each globalBounds ]
+			ifFalse: [ each fullBounds ].
+		(area intersects: globalBounds)
+			ifTrue: [ 
+				| zIndex |
+				zIndex := each layoutProperties zIndex.
+				zIndex = 1
+					ifTrue: [ 
+						"immediately draw ones with the lowest possible z-index.
+					With this approach performance doesn't degrade"
+						intersection := area intersect: globalBounds ifNone: (0 @ 0 extent: 0 @ 0).
+						canvas := aCanvas copyClipRect: intersection.
+						each fullDrawOn: canvas ]
+					ifFalse: [ zIndexedBricks add: each ]	"if z-index is not 1 we add it to collection, in order to sort and draw as second attempt" ] ] ] in GLMScrollPaneBandBrick(GLMBrick)>>drawSubmorphsOn:
+OrderedCollection>>do:
+GLMScrollPaneBandBrick(GLMBrick)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMScrollPaneBandBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMScrollPaneBandBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMScrollPaneBandBrick(Morph)>>fullDrawOn:
+GLMScrollPaneBandBrick(GLMBrick)>>fullDrawOn:
+[ :each | 
+| intersection canvas globalBounds |
+each
+	ifNotNil: [ 
+		self flag: 'fix nil case'.
+		globalBounds := each isBrick
+			ifTrue: [ each globalBounds ]
+			ifFalse: [ each fullBounds ].
+		(area intersects: globalBounds)
+			ifTrue: [ 
+				| zIndex |
+				zIndex := each layoutProperties zIndex.
+				zIndex = 1
+					ifTrue: [ 
+						"immediately draw ones with the lowest possible z-index.
+					With this approach performance doesn't degrade"
+						intersection := area intersect: globalBounds ifNone: (0 @ 0 extent: 0 @ 0).
+						canvas := aCanvas copyClipRect: intersection.
+						each fullDrawOn: canvas ]
+					ifFalse: [ zIndexedBricks add: each ]	"if z-index is not 1 we add it to collection, in order to sort and draw as second attempt" ] ] ] in GLMPagerScrollBrick(GLMBrick)>>drawSubmorphsOn:
+OrderedCollection>>do:
+GLMPagerScrollBrick(GLMBrick)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerScrollBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerScrollBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMPagerScrollBrick(Morph)>>fullDrawOn:
+GLMPagerScrollBrick(GLMBrick)>>fullDrawOn:
+[ :each | 
+| intersection canvas globalBounds |
+each
+	ifNotNil: [ 
+		self flag: 'fix nil case'.
+		globalBounds := each isBrick
+			ifTrue: [ each globalBounds ]
+			ifFalse: [ each fullBounds ].
+		(area intersects: globalBounds)
+			ifTrue: [ 
+				| zIndex |
+				zIndex := each layoutProperties zIndex.
+				zIndex = 1
+					ifTrue: [ 
+						"immediately draw ones with the lowest possible z-index.
+					With this approach performance doesn't degrade"
+						intersection := area intersect: globalBounds ifNone: (0 @ 0 extent: 0 @ 0).
+						canvas := aCanvas copyClipRect: intersection.
+						each fullDrawOn: canvas ]
+					ifFalse: [ zIndexedBricks add: each ]	"if z-index is not 1 we add it to collection, in order to sort and draw as second attempt" ] ] ] in GLMPagerBrick(GLMBrick)>>drawSubmorphsOn:
+OrderedCollection>>do:
+GLMPagerBrick(GLMBrick)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMPagerBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMPagerBrick(Morph)>>fullDrawOn:
+GLMPagerBrick(GLMBrick)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMFoundationBrick(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMFoundationBrick(Morph)>>drawSubmorphsOn:
+GLMFoundationBrick(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMFoundationBrick(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMFoundationBrick(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMFoundationBrick(Morph)>>fullDrawOn:
+GLMFoundationBrick>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :m | canvas fullDrawMorph: m ] in [ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMSystemWindow(Morph)>>drawSubmorphsOn:
+Array(SequenceableCollection)>>reverseDo:
+[ :canvas | submorphs reverseDo: [ :m | canvas fullDrawMorph: m ] ] in GLMSystemWindow(Morph)>>drawSubmorphsOn:
+FormCanvas>>clipBy:during:
+GLMSystemWindow(Morph)>>drawSubmorphsOn:
+[ 
+(aCanvas isVisible: self bounds)
+	ifTrue: [ aCanvas drawMorph: self ].
+self drawSubmorphsOn: aCanvas.
+self drawDropHighlightOn: aCanvas.
+self drawMouseDownHighlightOn: aCanvas ] in [ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMSystemWindow(Morph)>>fullDrawOn:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+[ 
+"Note: At some point we should generalize this into some sort of 
+		multi-canvas so that we can cross-optimize some drawing operations."
+"Pass 1: Draw eventual drop-shadow"
+self hasDropShadow
+	ifTrue: [ self drawDropShadowOn: aCanvas ].	"Pass 2: Draw receiver itself"
+aCanvas
+	roundCornersOf: self
+	during: [ 
+		(aCanvas isVisible: self bounds)
+			ifTrue: [ aCanvas drawMorph: self ].
+		self drawSubmorphsOn: aCanvas.
+		self drawDropHighlightOn: aCanvas.
+		self drawMouseDownHighlightOn: aCanvas ] ] in GLMSystemWindow(Morph)>>fullDrawOn:
+BlockClosure>>on:do:
+GLMSystemWindow(Morph)>>fullDrawOn:
+FormCanvas(Canvas)>>fullDraw:
+FormCanvas(Canvas)>>fullDrawMorph:
+[ :r | 
+| mm rect i c remnantIntersects remnants rectToFill |
+"Experimental top-down drawing --
+			Traverses top to bottom, stopping if the entire area is filled.
+			If only a single rectangle remains, then continue with the reduced rectangle."
+rectToFill := r.
+remnants := OrderedCollection with: r.
+i := 1.
+[ remnants isEmpty or: [ i > n ] ]
+	whileFalse: [ 
+		mm := submorphs at: i.
+		((remnantIntersects := remnants select: [ :each | mm fullBounds intersects: each ]) notEmpty and: [ mm visible ])
+			ifTrue: [ 
+				morphs addLast: mm.
+				rects addLast: (Rectangle merging: (remnantIntersects collect: [ :each | mm fullBounds intersect: each ])).
+				remnants removeAll: remnantIntersects.
+				remnantIntersects do: [ :eachIntersect | remnants addAll: (mm areasRemainingToFill: eachIntersect) ].
+				remnants size = 1
+					ifTrue: [ rectToFill := remnants first ].
+				remnants isEmpty
+					ifTrue: [ rectToFill := nil ] ].
+		i := i + 1 ].	"Now paint from bottom to top, but using the reduced rectangles."
+rectToFill ifNotNil: [ aWorld drawOn: (c := aCanvas copyClipRect: rectToFill) ].
+[ morphs isEmpty ]
+	whileFalse: [ 
+		(rect := rects removeLast) == rectToFill
+			ifFalse: [ c := aCanvas copyClipRect: (rectToFill := rect) ].
+		c fullDrawMorph: morphs removeLast ].
+morphs reset.
+rects reset.
+validList add: r ] in [ :dirtyRect | 
+dirtyRect
+	allAreasOutsideList: validList
+	do: [ :r | 
+		| mm rect i c remnantIntersects remnants rectToFill |
+		"Experimental top-down drawing --
+			Traverses top to bottom, stopping if the entire area is filled.
+			If only a single rectangle remains, then continue with the reduced rectangle."
+		rectToFill := r.
+		remnants := OrderedCollection with: r.
+		i := 1.
+		[ remnants isEmpty or: [ i > n ] ]
+			whileFalse: [ 
+				mm := submorphs at: i.
+				((remnantIntersects := remnants select: [ :each | mm fullBounds intersects: each ]) notEmpty and: [ mm visible ])
+					ifTrue: [ 
+						morphs addLast: mm.
+						rects addLast: (Rectangle merging: (remnantIntersects collect: [ :each | mm fullBounds intersect: each ])).
+						remnants removeAll: remnantIntersects.
+						remnantIntersects do: [ :eachIntersect | remnants addAll: (mm areasRemainingToFill: eachIntersect) ].
+						remnants size = 1
+							ifTrue: [ rectToFill := remnants first ].
+						remnants isEmpty
+							ifTrue: [ rectToFill := nil ] ].
+				i := i + 1 ].	"Now paint from bottom to top, but using the reduced rectangles."
+		rectToFill ifNotNil: [ aWorld drawOn: (c := aCanvas copyClipRect: rectToFill) ].
+		[ morphs isEmpty ]
+			whileFalse: [ 
+				(rect := rects removeLast) == rectToFill
+					ifFalse: [ c := aCanvas copyClipRect: (rectToFill := rect) ].
+				c fullDrawMorph: morphs removeLast ].
+		morphs reset.
+		rects reset.
+		validList add: r ] ] in WorldState>>drawWorld:submorphs:invalidAreasOn:
+Rectangle>>allAreasOutsideList:startingAt:do:
+Rectangle>>allAreasOutsideList:do:
+[ :dirtyRect | 
+dirtyRect
+	allAreasOutsideList: validList
+	do: [ :r | 
+		| mm rect i c remnantIntersects remnants rectToFill |
+		"Experimental top-down drawing --
+			Traverses top to bottom, stopping if the entire area is filled.
+			If only a single rectangle remains, then continue with the reduced rectangle."
+		rectToFill := r.
+		remnants := OrderedCollection with: r.
+		i := 1.
+		[ remnants isEmpty or: [ i > n ] ]
+			whileFalse: [ 
+				mm := submorphs at: i.
+				((remnantIntersects := remnants select: [ :each | mm fullBounds intersects: each ]) notEmpty and: [ mm visible ])
+					ifTrue: [ 
+						morphs addLast: mm.
+						rects addLast: (Rectangle merging: (remnantIntersects collect: [ :each | mm fullBounds intersect: each ])).
+						remnants removeAll: remnantIntersects.
+						remnantIntersects do: [ :eachIntersect | remnants addAll: (mm areasRemainingToFill: eachIntersect) ].
+						remnants size = 1
+							ifTrue: [ rectToFill := remnants first ].
+						remnants isEmpty
+							ifTrue: [ rectToFill := nil ] ].
+				i := i + 1 ].	"Now paint from bottom to top, but using the reduced rectangles."
+		rectToFill ifNotNil: [ aWorld drawOn: (c := aCanvas copyClipRect: rectToFill) ].
+		[ morphs isEmpty ]
+			whileFalse: [ 
+				(rect := rects removeLast) == rectToFill
+					ifFalse: [ c := aCanvas copyClipRect: (rectToFill := rect) ].
+				c fullDrawMorph: morphs removeLast ].
+		morphs reset.
+		rects reset.
+		validList add: r ] ] in WorldState>>drawWorld:submorphs:invalidAreasOn:
+Array(SequenceableCollection)>>do:
+WorldState>>drawWorld:submorphs:invalidAreasOn:
+[ 
+| worldDamageRects handDamageRects |
+worldDamageRects := self drawWorld: aWorld submorphs: submorphs invalidAreasOn: canvas.	"repair world's damage on canvas"	"self handsDo:[:h| h noticeDamageRects: worldDamageRects]."
+handsToDraw := self selectHandsToDrawForDamage: worldDamageRects.
+handDamageRects := handsToDraw collect: [ :h | h savePatchFrom: canvas ].
+allDamage := worldDamageRects , handDamageRects.
+handsToDraw reverseDo: [ :h | canvas fullDrawMorph: h ]	"draw hands onto world canvas" ] in WorldState>>displayWorld:submorphs:
+FormCanvas>>roundCornersOf:in:during:
+FormCanvas(Canvas)>>roundCornersOf:during:
+WorldState>>displayWorld:submorphs:
+WorldMorph>>displayWorld
+SystemProgressMorph>>refresh
+SystemProgressMorph>>update:
+MorphChanged>>deliverTo:
+SystemProgressMorph(Morph)>>handleUpdate:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in WeakAnnouncementSubscription>>deliver:
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+WeakAnnouncementSubscription>>deliver:
+[ subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt:
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+JobProgressMorph(Morph)>>changed:
+JobProgressMorph>>label:
+SystemProgressMorph class>>updateJob:
+MessageSend>>value:
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver:
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt:
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+Job>>announce:
+Job>>announceChange
+Job>>currentValue:
+Job>>current:
+[ :item :index | 
+bar current: index.
+(self add: item) execute ] in [ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+Array(SequenceableCollection)>>withIndexDo:
+Array(SequenceableCollection)>>doWithIndex:
+[ :bar | 
+aCollection
+	doWithIndex: [ :item :index | 
+		bar current: index.
+		(self add: item) execute ] ] in StartupPreferencesLoader>>executeAtomicItems:
+BlockClosure>>cull:
+[ result := block cull: self ] in [ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+BlockClosure>>on:do:
+[ 
+self prepareForRunning.
+[ result := block cull: self ]
+	on: JobNotification
+	do: [ :notification | notification handle: self ] ] in Job>>run
+BlockClosure>>ensure:
+Job>>run
+MorphicUIManager(UIManager)>>displayProgress:from:to:during:
+ByteString(String)>>displayProgressFrom:to:during:
+StartupPreferencesLoader>>executeAtomicItems:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+DoItDeclaration>>importFor:
+[ :declaration | 
+requestor ifNotNil: [ requestor contents: declaration contents ].
+value := declaration importFor: requestor ] in CodeImporter>>evaluateDeclarations
+OrderedCollection>>do:
+CodeImporter>>evaluateDeclarations
+CodeImporter class>>evaluateFileStream:
+[ :stream | CodeImporter evaluateFileStream: stream ] in FileReference(AbstractFileReference)>>fileIn
+[ aBlock value: stream ] in FileReference(AbstractFileReference)>>readStreamDo:
+BlockClosure>>ensure:
+FileReference(AbstractFileReference)>>readStreamDo:
+FileReference(AbstractFileReference)>>fileIn
+[ :file | file fileIn ] in StartupPreferencesLoader>>load:
+OrderedCollection>>do:
+StartupPreferencesLoader>>load:
+StartupPreferencesLoader>>loadFromDefaultLocations
+PharoCommandLineHandler>>runPreferences
+PharoCommandLineHandler>>activate
+PharoCommandLineHandler class(CommandLineHandler class)>>activateWith:
+[ super activateWith: aCommandLine ] in PharoCommandLineHandler class>>activateWith:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+[ 
+[ 
+World doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ 
+self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+

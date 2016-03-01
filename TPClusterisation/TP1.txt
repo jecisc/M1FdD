@@ -1,5 +1,14 @@
 !! TP Clusterisation
 
+!!! Utiliser l'image Pharo
+
+Le code a roduire a ete fait sous Pharo. Pour simplifier l'utilisation je n'ai pas cree d'objet. J'ai tout mit dans un playground qui est present dans l'image fournie. Pour lancer l'image Pharo sur OSX il suffit de deplacer le fichier Kmean-Algo.image sur l'app Pharo4.0 qui se trouve dans le meme dossier. (Ou alors par ligne de commande il suffit de passer le chemin de la VM Pharo4.0/Contents/MacOS/Pharo puis le chemin de l'image).
+
+Une fois l'image ouverte le Playground devrait etre la seule fenetre ouverte. Au debut du script il y a quelques parametres tel que le fichier, la gaine ou encore le nombre de clusters qui peuvent etre personnalise. L'algo retourne une collection des centres. Pour l'executer il suffit de faire CMD-a pour selectionner tout l'algo puis CMD-i pour inspecter le resultat (cela ouvre un inspecteur permettant de voir les centres) ou CMD-p pour imprimer le resultat dans une petite fenetre flotante.
+
+Normalement ce devrait etre aussi simple que ca.
+Il se peut qu'il y ai quelques problemes sur les arondis mais je n'ai pas le temps de les corriger.
+
 !!! Travail sur Square1
 
 1) Nous avons choisit d' utiliser un calcul de distance classique:
