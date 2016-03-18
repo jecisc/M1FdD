@@ -1,0 +1,32 @@
+PARTIE 1 ------------------------------------------------------------------
+
+4) 
+On a à disposition des métriques tels que le support, le nombre de cycles effectués et la confiance minimum.
+On a le nombre d'itemSets pour chaque taille d'itemSets.
+On a également les 10 meilleures règles trouvés par l'algorithme.
+
+PARTIE 2 ------------------------------------------------------------------
+
+1)
+Lift et Leverage donnent des résultats fortement semblables.
+
+
+3)
+Leverage: Mesure la différence entre la probabilité de (L,R) et la probabilité de (L).(R)
+Pr(L,R) - Pr(L).Pr(R) 
+
+Conviction: Mesure l'effet lorsque R est faux.
+Pr(L).Pr(not R) / Pr(L,R). 
+
+PARTIE 3 ------------------------------------------------------------------
+
+a) 2)
+Non.
+
+d) 1)
+2)
+
+PARTIE 4 ------------------------------------------------------------------
+
+3) 
+
